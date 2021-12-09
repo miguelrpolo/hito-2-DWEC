@@ -16,9 +16,10 @@ Rejected
 
 Cuando ha ocurrido un error en la promesa, el estado de la transición no debe cambiar y debe tener una razón por la cual a sucedido el error la cual no debe cambiar. para obtener los resultados rejected utilizamos la palabra reservada catch
 
+Cuando una promesa espera a recibir una respuesta antes de continuar con el programa, se le llama una promesa asíncrona. Si no lo hace, se considera síncrona.
 
 
-
+Ejemplo de promesa asíncrona:
 
 */
 
@@ -38,4 +39,9 @@ promesa.catch((error)=>{
 console.log("fallo: " + error);
 })
 
+/*
+Ejemplo de promesa síncrona: 
+
+
+*/
 
